@@ -1,2 +1,3 @@
-# template-HtmlCleaner
-HtmlCleaner
+# HtmlCleaner 
+
+See [README](HtmlCleaner/README.md) for details.
