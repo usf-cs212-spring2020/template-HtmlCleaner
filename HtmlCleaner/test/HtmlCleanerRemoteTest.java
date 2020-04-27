@@ -55,9 +55,10 @@ public class HtmlCleanerRemoteTest {
   public void testGuten() throws MalformedURLException {
     URL url = new URL("https://www.cs.usfca.edu/~cs212/guten/");
     String expected = String.join("\n", List.of(
+        "Great Expectations by Charles Dickens (1867)",
+        "The Oak Ridge ALGOL Compiler for the Control Data Corporation 1604 Preliminary Programmer's Manual",
         "On the Origin of Species by Charles Darwin (1859)",
         "Leaves of Grass by Walt Whitman (1855)",
-        "Great Expectations by Charles Dickens (1867)",
         "The Adventures of Sherlock Holmes by Arthur Conan Doyle (1892)",
         "Practical Grammar and Composition by Thomas Wood (1910)",
         "The Elements of Style by William Strunk"));
